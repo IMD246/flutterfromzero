@@ -59,11 +59,10 @@ class _TripListState extends State<TripList> {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
-      key: _listKey,
-      itemCount: _tripTiles.length,
-      itemBuilder: (context, index) {
-        return _tripTiles[index];
-      }
-    );
+        key: _listKey,
+        itemCount: _tripTiles.length,
+        itemBuilder: (context, index) {
+          return _tripTiles[index];
+        });
   }
 }
